@@ -9,7 +9,7 @@ String arr[]=s.split(" ");//Test Automation
 StringBuilder output=new StringBuilder();
 for(String k:arr){
     String rever=new StringBuilder(k).reverse().toString();
-    output.append(rever).append(" ");
+    output.append(rever).append("");
 }
         System.out.println(output.toString().trim());
     }
